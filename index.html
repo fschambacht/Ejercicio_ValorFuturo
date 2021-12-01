@@ -2,10 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ejercicio_ValorFuturo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
+<body>  
+  <header>
+    <h1 class="title">Calculate future value</h1>
+  </header>
+  <main>
+    <div class="main_container">
+      <div class="option_container">
+        <label class="main_label" for="options">Chose a value to calculate</label>
+        <select class="select" name="options" id="options">
+          <option value="1">Future Value</option>
+          <option value="2">Present Value</option>
+          <option value="3">Interest Period</option>
+          <option value="4">Total Periods</option>
+        </select>
+      </div>
+      <div class="data">
+        <label class="label" >Future value</label>
+        <input class="input" type="number" id="future_value">
+        <label class="label" >Present value</label>
+        <input class="input" type="number" id="present_value">
+        <label class="label" >Interest Period (%)</label>
+        <input class="input" type="number" id="interest_period">
+        <label class="label" >Total periods</label>
+        <input class="input" type="number" id="total_periods">
+      </div>
+      <div class="button_container">
+        <button class="button" type="reset" onclick="clear_calculator()">Clear</button>
+        <button class="button" type="submit" onclick="calculate()">Calculate</button>
+      </div>
+      <div class="container_result">
+        <h2 class="" >The value is: </h2>
+        <p class="result" id="result"></p>
+      </div>
+    </div>
+    <div class="image">
+      <img width="200px" height="" src="./undraw_calculator_re_jy39.svg">
+    </div>
+  </main>
   <script src="main.js"></script>
 </body>
 </html>
