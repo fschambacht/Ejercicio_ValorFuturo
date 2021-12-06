@@ -1,3 +1,34 @@
+# Link to Challenge #
+https://fschambacht.github.io/Ejercicio_ValorFuturo/
+
+## How to use ##
+- Depend on which value you want to calculate:
+  1. Future value
+    - You have to enter values of:
+      - Present Value
+      - Interest Period in %
+      - Total Periods
+   2. Present value
+    - You have to enter values of:
+      - Future Value
+      - Interest Period in %
+      - Total Periods
+   3. Interest Perirod
+    - You have to enter values of:
+      - Future Value
+      - Present value
+      - Total Periods
+   4. Total Periods
+    - You have to enter values of:
+      - Future Value
+      - Interest Period in %
+      - Present Value
+- When you enter all values required for each one, click on "calculate" button and the result value appears in the front of "The vale is:"
+- If you want to clear the values, just click in button "clear" and the values will be deleted
+
+<details>
+<summary>About Challenge</summary>
+
 # Ejercicio_ValorFuturo
 En este ejercicio tendrás que calcular el valor futuro de una inversión con base en el valor presente de la inversión, el interés y el periodo. 
 ## Descripción
@@ -18,3 +49,5 @@ Usa algebra para despejar la fórmula y que igual puedas obtener calquiera de lo
 
 ## Bonus
 Investiga que es el interés convertido nominal y aplícalo en tu fórmula.
+  
+</details>
